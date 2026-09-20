@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# Python & AI Service
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Machine Learning Models & Binaries
+*.h5
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.bin
+*.pkl
+models/checkpoints/
+
+# React Native & Mobile Build Outputs
+.expo/
+.expo-shared/
+dist/
+build/
+android/app/build/
+android/.gradle/
+ios/Pods/
+ios/build/
+*.apk
+*.aab
+*.ipa
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
